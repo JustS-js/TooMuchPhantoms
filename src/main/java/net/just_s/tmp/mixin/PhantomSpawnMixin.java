@@ -44,6 +44,7 @@ public class PhantomSpawnMixin {
 		}
 	}
 
+	@Unique
 	private int customSpawn(ServerWorld world) {
 		Random random = world.random;
 		int phantomsSpawned = 0;
